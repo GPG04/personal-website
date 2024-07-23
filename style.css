@@ -1,0 +1,27 @@
+.spaghettiImg {
+    width: 150px;
+    display: inline-block;
+}
+
+.spaghettiText {
+    padding: 20px;
+    width: 350px;
+    margin: 10px;
+    display: flex
+}
+
+.drinkImg {
+    width: 200px;
+}
+
+.sleepImg {
+    width: 250px;
+}
+
+body {
+    background-color: rgb(131, 239, 172);
+}
+
+nav {
+    margin-left: auto;
+}
