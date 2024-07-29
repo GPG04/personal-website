@@ -1,21 +1,52 @@
-.spaghettiImg {
-    width: 150px;
-    display: inline-block;
+#spaghetti {
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
-.spaghettiText {
+#spaghettiImg {
+    width: 150px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#spaghettiText {
     padding: 20px;
     width: 350px;
     margin: 10px;
-    display: flex
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
 
-.drinkImg {
+#drink {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#drinkImg {
     width: 200px;
+    grid-column-start: 1;
+    grid-row-start: 4;
 }
 
-.sleepImg {
+#drinkText {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+#luigi {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+#luigiImg {
     width: 250px;
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+#luigiText {
+    grid-column-start: 2;
+    grid-row-start: 6;
 }
 
 body {
@@ -24,4 +55,15 @@ body {
 
 nav {
     margin-left: auto;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+}
+
+#images {
+    display: block;
+    grid-column: 1;
 }
